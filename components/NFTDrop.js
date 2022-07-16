@@ -10,11 +10,11 @@ return (
     <Container>
       <TitleContainer>
         <Title>
-          {nft.metadata.name}
+          {nfts.metadata.name}
         </Title>
       </TitleContainer>
       <DescriptionContainer>
-        {nft.metadata.description}
+        {nfts.metadata.description}
       </DescriptionContainer>
     </Container>
   )
