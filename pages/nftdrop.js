@@ -6,9 +6,6 @@ import Header from "../components/Header";
 import NFTDrop from "../components/NFTDrop";
 import Footer from "../components/Footer";
 
-export default function NFTDrop() {
-  const nftDrop = useNFTDrop("0xf9AA4dccaC356f7eBB5F07A3b4Ece60F8119a219")
-
   return (
     <Container>
       <Head>
