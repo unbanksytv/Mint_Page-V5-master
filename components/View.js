@@ -3,7 +3,7 @@ import { nftDrop, MediaRenderer, useNFT } from "@thirdweb-dev/react";
 import { Button } from "./Button";
 
 const View = () => {
-  const nftCollection = nftDrop("0xf9AA4dccaC356f7eBB5F07A3b4Ece60F8119a219");
+  const nftCollection = nftDrop("0x773178333c4ff593F749D88FDC1Ad96017D3eccB");
   const {
     data: nft,
     isLoading,

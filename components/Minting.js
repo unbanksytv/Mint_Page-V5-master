@@ -13,7 +13,7 @@ const Minting = () => {
   const address = useAddress();
   const connectWithMetamask = useMetamask();
   const disconnectWallet = useDisconnect();
-  const nftDrop = useNFTDrop("0xf9AA4dccaC356f7eBB5F07A3b4Ece60F8119a219");
+  const nftDrop = useNFTDrop("0x773178333c4ff593F749D88FDC1Ad96017D3eccB");
   const router = useRouter()
 
   const mint = async () => {
